@@ -1,1 +1,81 @@
+h1 {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 175%;
+}
+/********** Base styles **********/
+div {
+	border: 1px solid black;
+	box-sizing: border-box;
+	background-color: #33CC66;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	margin: 10px;
+	font-family: courier;
+	float: left;
+}
 
+h2 {
+	width: 170px; 
+	margin: 0;
+	text-align: center;
+	border-left: 1px solid black; 
+	border-bottom: 1px solid black;
+	float: right;
+	font-size: 125%;
+
+}
+/************coloring header 2 boxes individually****************/
+#Chicken {
+	background-color: #33FF33;
+}
+
+#Beef {
+	background-color: #663300;
+	color: white;
+}
+
+#Sushi {
+	background-color: #3399FF;
+}
+
+
+
+p {
+	padding-top: 15px;
+}
+
+
+/************desktop************/
+@media (min-width: 992px) {
+{float: left;} 
+  #div1 {
+  	width: 31%;
+  }
+  #div2 {
+  	width: 31%;
+  }
+  #div3 {
+  	width: 31%;
+  }
+}
+
+
+
+/************tablet*************/
+@media (min-width: 768px) and (max-width: 991px) {
+{float: left;} 
+  #div1 {
+  	width: 45%;
+  }
+  #div2 {
+  	width: 45%;
+  }
+  #div3 {
+  	width: 92.75%;
+  }
+}
+
+
+
+/*************mobile************/
