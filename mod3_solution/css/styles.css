@@ -1,2 +1,46 @@
 body {
+	
 }
+/** HEADER **/
+h1 {
+	margin-top: 0;
+}
+.navbar-brand {
+  padding-top: 5px;
+  color: blue;
+  margin-top: -30px;
+}
+
+#nav-list {
+	text-align: center;
+	font-size: 1.5em;
+	background-color: yellow;
+}
+
+#nav-list a:hover {
+	background: green;
+}
+
+li {
+	padding: 0;
+}
+/** END HEADER **/
+
+
+/** BODY **/
+
+h2 {
+	text-align: center;
+}
+
+#meat-type-section {
+	color: black;
+	background-color: #EA6B28;
+}
+#meat-type-title {
+	font-size: 1.7em;
+	text-align: center;
+	font-weight: bold;
+}
+
+/** END BODY **/
