@@ -24,11 +24,8 @@ function getRequestObject() {
 ajaxUtils.sendGetRequest = 
   function(requestUrl, responseHandler, isJsonResponse) {
     var request = getRequestObject();
-    request.onreadystatechange = 
-      function() { 
-        handleResponse(request, 
-                       responseHandler,
-                       isJsonResponse); 
+    request.onreadystatechange = function() { 
+        handleResponse(request,responseHandler,isJsonResponse); 
       };
     request.open("GET", requestUrl, true);
     request.send(null); // for POST only
